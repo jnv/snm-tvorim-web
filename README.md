@@ -2,11 +2,9 @@
 
 Materiály ke kurzu [Czechitas](http://www.czechitas.cz) _Tvořím web: HTML a CSS_. Repozitář obsahuje:
 
-- [slajdy](index.html),
+- [slajdy](slides.md),
 - [zadání úkolů](slides/tasks.md),
 - [jednotlivé výsledky samostatných cvičení](cviceni/).
-
-
 
 ## Slajdy
 
