@@ -55,9 +55,9 @@
         { src: '{{{base}}}/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
         { src: '{{{base}}}/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
         { src: '{{{base}}}/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        // { src: '{{{base}}}/plugin/zoom-js/zoom.js', async: true },
+        { src: '{{{base}}}/plugin/zoom-js/zoom.js', async: true },
         { src: '{{{base}}}/plugin/notes/notes.js', async: true },
-        { src: '{{{base}}}/plugin/menu/menu.js' },
+        { src: '{{{base}}}/plugins/menu/menu.js' },
       ];
 
       // default options to init reveal.js

@@ -4,7 +4,7 @@
     "_": ["index.md"],
     "scripts": ["custom.js"],
     "template": "reveal.html",
-    "staticDirs": ["theme", "img", "cviceni"],
+    "staticDirs": ["theme", "img", "cviceni", "plugins"],
     "title": "Tvořím web: HTML/CSS",
     "notesSeparator": ">>>",
     "theme": "theme/czechitas.css",
