@@ -16,4 +16,5 @@ action "Deploy to gh-pages" {
     FOLDER = "build"
   }
   needs = ["master branch only"]
+  secrets = ["ACCESS_TOKEN"]
 }
