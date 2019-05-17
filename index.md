@@ -1,7 +1,7 @@
 ---
 title: "Tvořím web: HTML/CSS"
 notesSeparator: ">>>"
-theme: css/theme/czechitas.css
+theme: theme/czechitas.css
 highlightTheme: idea
 revealOptions:
     width: 1024
