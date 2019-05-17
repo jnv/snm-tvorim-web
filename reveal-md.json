@@ -3,5 +3,10 @@
     "includeDir": "slides",
     "_": ["index.md"],
     "scripts": ["custom.js"],
-    "template": "reveal.html"
+    "template": "reveal.html",
+    "staticDirs": ["theme", "img", "cviceni"],
+    "title": "Tvořím web: HTML/CSS",
+    "notesSeparator": ">>>",
+    "theme": "theme/czechitas.css",
+    "highlightTheme": "idea"
 }

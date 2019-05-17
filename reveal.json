@@ -1,0 +1,25 @@
+{
+	"width": 1024,
+	"height": 768,
+	"margin": 0.05,
+	"minScale": 0.1,
+	"maxScale": 8,
+	"slideNumber": true,
+	"mouseWheel": false,
+	"transition": "none",
+	"backgroundTransition": "none",
+	"transitionSpeed": "fast",
+	"previewLinks": false,
+	"menu": {
+		"side": "left",
+		"numbers": false,
+		"titleSelector": "h1, h2, h3, h4, h5, h6",
+		"hideMissingTitles": false,
+		"markers": true,
+		"custom": false,
+		"themes": false,
+		"transitions": false,
+		"openSlideNumber": false,
+		"keyboard": true
+	}
+}

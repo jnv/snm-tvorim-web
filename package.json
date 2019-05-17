@@ -4,9 +4,10 @@
   "private": true,
   "description": "Materiály k workshopu Tvořím web: HTML a CSS",
   "scripts": {
-    "start": "reveal-md index.md",
-    "build": "npm run build:css",
-    "build:css": "node-sass theme/czechitas.sass theme/czechitas.css"
+    "start": "reveal-md slides.md --disable-auto-open",
+    "build": "npm run build:css && npm run build:slides",
+    "build:css": "node-sass theme/czechitas.scss theme/czechitas.css",
+    "build:slides": "rimraf _static && reveal-md slides.md --static _static"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,8 @@
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
-    "reveal-md": "^3.0.4"
+    "reveal-md": "^3.0.4",
+    "rimraf": "^2.6.3"
   },
   "license": "MIT"
 }
