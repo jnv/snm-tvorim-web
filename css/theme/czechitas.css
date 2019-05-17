@@ -477,8 +477,7 @@ code.c-fragment-hiding .fragment:not(.current-fragment):not(.visible) {
   width: 40%;
   height: auto;
   border: none !important;
-  box-shadow: none !important;
-}
+  box-shadow: none !important; }
 
 /* věci extra, které standardně neučíme */
 .c-extra {

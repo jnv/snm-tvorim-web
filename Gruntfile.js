@@ -1,4 +1,5 @@
 /* global module:false */
+const sass = require('node-sass');
 module.exports = function(grunt) {
 	var hostname = grunt.option('hostname') || 'localhost';
 	var port = grunt.option('port') || 7410;
@@ -36,11 +37,17 @@ module.exports = function(grunt) {
 
 		sass: {
 			core: {
+				options: {
+					implementation: sass,
+				},
 				files: {
 					'css/reveal.css': 'css/reveal.scss',
 				}
 			},
 			themes: {
+				options: {
+					implementation: sass,
+				},
 				files: [
 					{
 						expand: true,
