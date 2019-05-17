@@ -1,20 +1,35 @@
 ---
 title: "Tvořím web: HTML/CSS"
 notesSeparator: ">>>"
+theme: css/theme/czechitas.css
+highlightTheme: idea
 revealOptions:
+    width: 1024
+    height: 768
     margin: 0.05
     # Bounds for smallest/largest possible scale to apply to content
     minScale: 0.1
     maxScale: 8
     # other settings
     slideNumber: true
-    mouseWheel: true
+    mouseWheel: false
+    transition: 'none'
     backgroundTransition: 'none'
     transitionSpeed: 'fast'
-    previewLinks: true
+    previewLinks: false
     # dev settings
     # fragments: false
-    transition: 'none'
+    menu:
+        side: 'left'
+        numbers: false
+        titleSelector: 'h1, h2, h3, h4, h5, h6'
+        hideMissingTitles: false
+        markers: true
+        custom: false
+        themes: false
+        transitions: false
+        openSlideNumber: false
+        keyboard: true
 ---
 
 FILE: 00-ovladani.md

@@ -1,5 +1,7 @@
 {
     "preprocessor": "preprocessor.js",
     "includeDir": "slides",
-    "_": ["index.md"]
+    "_": ["index.md"],
+    "scripts": ["custom.js"],
+    "template": "reveal.html"
 }
