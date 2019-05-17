@@ -8,5 +8,6 @@
     "title": "Tvořím web: HTML/CSS",
     "notesSeparator": ">>>",
     "theme": "theme/czechitas.css",
-    "highlightTheme": "idea"
+    "highlightTheme": "idea",
+    "assetsDir": "assets"
 }
