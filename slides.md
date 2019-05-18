@@ -18,7 +18,7 @@ FILE: 10-css-tridy.md
 FILE: 11-css-box-model.md
 FILE: 12-css-pokrocile-selektory.md
 FILE: 13-css-pseudotridy.md
-FILE: 14-css-shorthands.md
+<!-- FILE: 14-css-shorthands.md -->
 FILE: 15-html-nav.md
 
 FILE: 16-css-nav.md
