@@ -23,7 +23,7 @@ FILE: 15-html-nav.md
 
 FILE: 16-css-nav.md
 FILE: 17-sekce-o-me.md
-FILE: intro-co-cekat.md
+<!-- FILE: intro-co-cekat.md -->
 FILE: 18-zakonceni.md
 
 FILE: blank.md
