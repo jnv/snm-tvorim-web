@@ -1,0 +1,10 @@
+/* Moderní box model - nastavená šířka boxu v této verzi zahrnuje padding a border */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
